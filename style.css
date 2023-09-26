@@ -1,0 +1,143 @@
+.navbar{
+    background-image: linear-gradient(90deg,  rgb(54, 3, 105), rgb(169, 118, 210));
+}
+.navbar-collapse{
+  flex-grow:0 !important;
+}
+.navbar-brand{
+    color: rgb(204, 218, 242);
+    font-family:'Times New Roman', Times, serif;
+    font-weight:700;
+}
+.nav-link{
+    color: aliceblue !important;
+    font-size: large;
+    font-weight: 500;
+}
+.btn-style1{
+  background-color: rgb(255, 242, 0);
+    padding: 5px 8px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    font: bold;
+    text-decoration: none;
+    float:right;
+}
+.lorem{
+  padding:100px !important;
+}
+.box-img{
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.btn-style{
+    background-color: rgb(89, 8, 116);
+    padding: 8px 8px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    font: bold;
+    text-decoration: none;
+    
+}
+.description{
+    margin: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.card-prod{
+    border: none;
+   margin-bottom: 20px;
+   margin-left: 30px !important;
+   border-radius: 20px !important;
+    
+}
+.btn-style:hover{
+    box-shadow:  0px 10px 10px 0px rgba(134, 28, 167, 0.5);
+}
+
+.card-prod1{
+    border: black !important;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+.col-md-3 img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.card:hover{
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.col-md-2 h3 {
+    padding-top: 100px;
+}
+.rating{
+    background-color: rgb(40, 142, 40);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    display:inline-block;
+    font-size: 12px;
+    color: aliceblue;
+
+}
+
+.card-1{
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.blink {
+    animation: blink-animation 1s linear infinite;
+    color: rgb(86, 200, 86);
+    
+    
+  }
+  
+  @keyframes blink-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .mrp{
+    text-decoration: line-through;
+    color:grey;
+  }
+  .section{
+    background-color: rgb(54, 3, 105);
+    padding-bottom: 20px;
+  }
+  .row{
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .sec-1-a{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .sub{
+    color: aliceblue;
+  }
+ 
+
+  .container{
+    margin-top: 100px;
+  }
+.g-3{
+  border: 1px solid black;
+  padding: 8px;
+}
